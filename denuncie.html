@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denuncie</title>
+
+    <style>
+
+        header {
+            background-color: #233cba;
+            border: #6ef5ff;
+            border-radius: 5px;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1{
+            color: #ffffff;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 15;
+            padding: 0;
+            
+            background: url(Idosa2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4761e3;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        .logo-button {
+      display: inline-block;
+      padding: 0;
+      border: 5px;
+      border-radius: 50%;
+      background: fixed;
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      height: auto;
+    }
+
+    .logo-button img {
+      width: 80px;
+      height: auto;
+      
+    }
+
+        h1{
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45vh;
+        }
+
+        form {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #a1aff5;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: initial;
+        }
+
+    </style>
+</head>
+<header>
+    <a href="Projeto 4.html" class="logo-button">
+    <img src="CAI.png" alt="Logo">
+    </a>
+    <a href="denuncie.html" class="botao">Denuncie</a>
+    <a href="programacoes.html" class="botao">Programações</a>
+    <a href="combate.html" class="botao">Como Combater</a>
+</header>
+<body>
+    <h1>  <u> Faça a sua denúncia  </u> </h1>
+<main>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+    
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+    
+        <input type="submit" value="Enviar">
+      </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 - Dia Mundial da Conscientização da Violência contra a Pessoa Idosa</p>
+      </footer>
+</body>
+</html>
